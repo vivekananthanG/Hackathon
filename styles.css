@@ -1,0 +1,120 @@
+
+.book-header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(orange, red);
+    opacity: 10;
+    height: 100px;
+    padding: 10px;
+  }
+
+ 
+  .button:hover {
+    background-color: white; 
+    color: yellow; 
+    border: 2px solid #dd1507;
+  }
+  
+  .button {
+    background-color: #dd1507;
+    color: yellow;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+}
+  
+.para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background: linear-gradient(orange, red);
+    border-radius: auto;
+    margin: auto;
+    font-size: 50px;
+    color: #fff;
+
+}
+  
+  .book-header img {
+    height: 5rem;
+    width: auto;
+  }
+  
+  #book-collection {
+    margin: 3rem;
+  }
+  
+  .card {
+    justify-content: center;
+    border: auto;
+    padding: 10px;
+    width: 25rem;
+    height: 40rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 0 10px 85px 0 rgba(0, 0, 0, 0.2),
+      0 16px 40px 0 rgba(58, 166, 255, 0.19);
+  }
+
+  .card1 {
+    justify-content: center;
+    border: auto;
+    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 0 10px 85px 0 rgba(0, 0, 0, 0.2),
+      0 16px 40px 0 rgba(58, 166, 255, 0.19);
+  }
+
+  .card2 {
+    justify-content: center;
+    border: auto;
+    padding: 10px;
+    width: 30rem;
+    height: 30rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 0 10px 85px 0 rgba(0, 0, 0, 0.2),
+      0 16px 40px 0 rgba(58, 166, 255, 0.19);
+  }
+  
+  
+  .input-text {
+    border-radius: 7px;
+    height: 3rem;
+    width: 50%;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    margin: auto;
+  }
+  
+  .toy-avatar {
+    justify-content: center;
+    height: 10rem;
+    width: auto;
+  }
+  
+  #head {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 600px;
+  }
+  
